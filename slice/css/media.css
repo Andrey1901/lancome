@@ -1,0 +1,521 @@
+/* Small Devices */
+@media only screen and (max-width : 1200px) {
+    .issuance {
+        margin-bottom: 50px;
+    }
+
+    .video .description-holder {
+        margin-top: 215px;
+        min-height: 676px;
+        position: relative;
+        right: 0;
+        height: 100%;
+        background: none;
+        background: #2e203a;
+        padding: 175px 0;
+    }
+
+    .video .description-holder .video-img {
+        position: absolute;
+        top: -220px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        max-width: 500px;
+    }
+
+    .video h2 {
+        text-align: center;
+    }
+
+    .text-button-block {
+        max-width: 800px;
+        width: 100%;
+        float: none !important;
+        margin: 0 auto;
+    }
+
+    .skud .description-holder img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        max-width: 500px;
+    }
+
+    .pon .description-holder img {
+        position: absolute;
+        top: -180px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        z-index: 1;
+        max-width: 500px;
+    }
+
+    .pon-holder {
+        float: none;
+        right: 0;
+        width: 100%;
+        margin: 0 auto; 
+        padding: 165px 0 80px 200px;
+    }
+
+    .cam-cafe-img-top {
+        left: -35px;
+    }
+
+    .cam-cafe-img-bottom {
+        left: -35px;
+    }
+
+    .panel-body {
+        padding: 50px 20px;
+    }
+}
+
+@media only screen and (max-width : 992px) {
+    .text-button-block {
+        max-width: 700px;
+    }
+
+    .video h2 {
+        font: 55px/57px 'CocoGothicFat';
+    }
+
+    .skud .description-holder img {
+        top: 120px;
+        max-width: 400px;
+    }
+
+    .pon-holder {
+        padding: 165px 0 80px 100px;
+    }
+
+    .content {
+        padding: 25px 70px 25px;
+        margin-top: -220px;
+    }
+
+    .img-text-holder img {
+        top: 0;
+        left: 0;
+        right: 0;
+        display: block;
+        position: relative;
+        margin: 0 auto 30px;
+    }
+
+    .works-image-holder img {
+        display: none;
+    }
+
+    .works-link a span {
+        font: 16px/20px 'CocoGothicFat';
+    }
+
+    .works-page .text-block {
+        max-width: 500px;
+    }
+    
+    .cam-cafe-img-top {
+        top: 30px;
+    }
+
+    .cam-cafe-img-bottom {
+        bottom: 30px;
+    }
+    
+    .web-build .text-block {
+        max-width: 450px;
+    }
+
+    .web-build-img-left {
+        display: none;
+    }
+
+    .web-build-img-right {
+        top: 30px;
+        right: -40px;
+    }
+
+    .panel-body ul {
+        float: none !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    .map-holder {
+        position: relative;
+        border: 5px solid #fff;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        height: 541px;
+    }
+
+    .contacts-holder h2 {
+        margin-bottom: 150px;
+    }
+
+    .contact-block {
+        margin: 0 auto;
+    }
+
+    .map-holder iframe {
+        position: relative;
+        width: 100%;
+        top: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+}
+
+@media only screen and (max-width : 849px) {
+    .navbar-inverse .navbar-nav>li>a {
+        font: 14px/16px 'RalewayExtraBold';
+    }  
+
+    .skud {
+        margin-top: 150px;
+        min-height: 100%;
+        margin-bottom: 235px;
+    }  
+
+    .web-build-img-right {
+        right: 25px;
+    }
+}
+
+@media only screen and (max-width : 769px) {
+    .content {
+         margin-top: 0px; 
+    }
+
+    .price {
+        padding-top: 200px;
+    }
+    
+    .description-holder {
+        margin-top: 100px;
+    }
+
+    .skud {
+        margin-top: 150px;
+    }
+
+    .skud .description-holder p {
+        max-width: 500px;
+        margin: 0 auto 50px;
+    }
+
+    .skud .description-holder .more,
+    .pon .description-holder .more {
+        margin: 0 auto;
+    }
+
+    .skud .description-holder img {
+        max-width: 350px;
+    }
+
+    .skud .description-holder,
+    .pon .description-holder {
+        padding-left: 15px;
+    }
+
+    .pon-holder {
+        padding: 165px 0 80px 15px;
+    }
+
+    .contacts {
+        padding-top: 25px;
+    }
+
+    .contacts span {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .contacts i {
+        float: none;
+        text-align: center;
+        display: block;
+        margin: 55px auto;
+    }
+
+    .footer {
+        padding: 85px 15px 20px;
+    }
+
+    .issuance h2 {
+        font: 55px/57px 'CocoGothicFat';
+    }
+
+    .text-button-block p {
+        padding: 0 25px;
+    }
+
+    .video h2 {
+        font: 45px/47px 'CocoGothicFat';
+    }
+
+    .text-button-block .more,
+    .pon .more,
+    .footer .send {
+        margin-left: 20px;
+    }
+    
+    .skud .description-holder h2 {
+        max-width: 100%;
+        text-align: center;
+        width: 100%;
+        margin: 0 0 45px;
+        font: 45px/47px 'CocoGothicFat';
+    }
+
+    .skud .description-holder {
+        padding-top: 265px;
+    }
+
+    .skud .description-holder img {
+        top: -45px;
+        max-width: 400px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .pon .description-holder h2 {
+        text-align: center;
+    }
+
+    .pon .description-holder p {
+        max-width: 100%;
+        padding: 0 25px; 
+    }
+
+    .work-link-wrapper {
+        padding: 30px 15px 70px;
+    }
+
+    .footer .send {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    .nav {
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    .navbar-inverse .navbar-nav>.active>a,
+    .navbar-inverse .navbar-nav>.open>a {
+        background: none;
+    }
+
+    .works-link {
+        width: 100%;
+    }
+
+    .navbar-inverse {
+        background: rgba(0,0,0,0.6);
+    }
+
+    .dropdown-holder {
+        position: relative !important;
+        top: 0 !important;
+        width: 100%;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+        font: 14px/16px 'RalewayExtraBold';
+        width: 100%;
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .video h2 {
+        font: 30px/32px 'CocoGothicFat';
+        text-align: center;
+    }
+
+    .issuance h2 {
+        font: 35px/37px 'CocoGothicFat';
+        text-align: center;
+    }
+
+    .description-holder p {
+        max-width: 100%;
+        padding: 0 25px; 
+    }
+
+    .description-holder {
+        background: none;
+        min-height: 100%;
+        /*margin-top: 0;*/
+        padding: 0 15px;
+    }
+
+    .description-holder .more {
+        margin: 0 auto;
+    }
+
+    .video .description-holder .video-img {
+        top: -120px;
+        max-width: 300px;
+    }
+
+    .pon .description-holder img {
+        max-width: 400px;
+    }
+
+    .cam-holder {
+        max-width: 320px;
+        position: absolute;
+        bottom: -25px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    .cam-holder a {
+        margin: 0; 
+    }
+
+    .img-text-holder img {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .restaurants-video, .web-build {
+        border: none;
+    }
+
+    .works-page .text-block {
+        max-width: 100%;
+        padding-top: 150px;
+        padding: 45px 15px 25px;
+    }
+    
+    .cam-cafe-img-top,
+    .web-build-img-right {
+        top: -80px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        z-index: 2;
+    }
+
+    .cam-cafe-img-bottom {
+        display: none;
+    }
+    
+    .web-build .text-block {
+        max-width: 100%;
+        padding-top: 200px;
+    }
+
+    .works-page h2 {
+        margin-bottom: 200px;
+    }
+
+    .panel-title {
+        font: 25px/27px 'CocoGothicFat';
+    }
+
+    .panel-title i {
+        right: 0px;
+    }
+}
+
+@media only screen and (max-width : 640px) {
+}
+
+@media only screen and (max-width : 540px) {
+    .panel-title {
+        font: 18px/20px 'CocoGothicFat';
+    }
+}
+
+@media only screen and (max-width : 450px) {
+    .skud .description-holder img,
+    .pon .description-holder img {
+        max-width: 320px;
+    }
+
+    .pon .description-holder img {
+        top: -120px;
+    }
+
+    .cam-cafe-img-top,
+    .web-build-img-right {
+        max-width: 300px;
+    }
+
+    .works-page h2 {
+        font: 50px/62px 'CocoGothicFat';
+    }
+
+    .panel-body ul li {
+        font: 14px/24px 'Calibri';
+        color: #111;
+    }
+
+    .panel-title {
+        font: 14px/20px 'CocoGothicFat';
+    }
+
+    .panel-title i {
+        right: -25px;
+    }
+
+    .contacts-holder h2 {
+        font: 42px/65px 'CocoGothicFat';
+    }
+
+@media only screen and (max-width : 420px) {
+    .panel-body ul li {
+        font: 12px/24px 'Calibri';
+        color: #111;
+    }
+}
+@media only screen and (max-width : 380px) {
+    .skud .description-holder img,
+    .pon .description-holder img {
+        max-width: 300px;
+    }
+
+    .video h2 {
+        font: 22px/24px 'CocoGothicFat';
+    }
+
+    .issuance h2 {
+        font: 25px/27px 'CocoGothicFat';
+    }
+    
+    .cam-holder {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cam-holder a {
+        width: 140px;
+    }
+
+    .skud .description-holder {
+        padding-top: 185px;
+    }
+
+    .contacts span {
+        font: 30px/39px 'Calibri';
+    }
+
+    .panel-body ul li {
+        font: 10px/24px 'Calibri';
+        color: #111;
+    }
+}

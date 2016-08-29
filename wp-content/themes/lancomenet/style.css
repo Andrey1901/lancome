@@ -271,7 +271,7 @@ textarea:focus:-ms-input-placeholder {
     min-height: 607px;
     position: relative;
     height: 100%;
-    background: url(/img/cables.png) no-repeat;
+
     background-position: center right;
     padding-left: 90px;
 }

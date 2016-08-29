@@ -1,78 +1,70 @@
-<?php get_header();
-/*
-* Template Name: Homepage Template
-*/
-?>
-<!-- Start Main -->
-<section class="container-fluid video" id="video">
-	<div class="container description-holder clearfix">
-		<div class="row">
-			<img src="<?php the_field('first_image'); ?>" class="video-img" alt="video">
-			<h2><?php the_field('first_title'); ?></h2>
-			<div class="text-button-block pull-right">
-				<p><?php the_field( 'first_description' ); ?></p>
-				<a href="video.html" class="more">подробнее</a>
-			</div>
-			<div class="cam-holder list-inline">
-				<a href="javascript:void(0);">
-					внутренние
-					<img src="img/cam-1.png" alt="cam-1">
-				</a>
-				<a href="javascript:void(0);">
-					уличные
-					<img src="img/cam-2.png" alt="cam-2">
-				</a>
-			</div>
-
-		</div>
-	</div>
-</section>
-<section class="container-fluid skud" id="skud">
-	<div class="container description-holder">
-		<div class="row">
-			<div class="col-sm-6">
-				<h2>СКУД Контроль доступа</h2>
-				<p>
-					Любое строительство сетей начинается с проектирования.
-					В начале первого этапа определяются всевозможные пожелания и требования: масштаб и охват сетей,
-					кол-во рабочих мест, В начале первого этапа определяются всевозможные пожелания и требования:
-					масштаб и охват сетейинфраструктура здания, бюджет проекта......
-				</p>
-				<a href="skud.html" class="more">подробнее</a>
-			</div>
-			<img src="img/skud-img.png" alt="skud-image">
-		</div>
-	</div>
-</section>
+<?php /*Template Name: Homepage Template*/
+get_header(); ?>
+    <!-- Start Main -->
+<!-- Web network buil -->
 <section class="container-fluid issuance" id="main">
-	<div class="container description-holder">
-		<div class="row">
-			<h2>Строительство сетей</h2>
-			<p>
-				Любое строительство сетей начинается с проектирования. В начале первого этапа определяются всевозможные
-				пожелания и требования: масштаб и охват сетей, кол-во рабочих мест, инфраструктура здания, бюджет
-				проекта......
-			</p>
-			<a href="build-web.html" class="more">подробнее</a>
-		</div>
-	</div>
+    <div class="container description-holder">
+        <div class="row">
+            <h2><?php echo get_field("first_title");?></h2>
+            <p><?php echo get_field("first_description");?></p>
+                <a href="<?php echo get_field("button_link");?>" class="more"><?php echo get_field("button_text");?></a>
+        </div>
+        <img src="<?php echo get_field("first_image");?>" alt="<?php echo get_field("alt_text_1");?>">
+    </div>
 </section>
-<section class="container-fluid pon" id="pon">
-	<div class="container description-holder">
-		<div class="row">
-			<img src="img/pon-img.png" alt="skud-image">
-			<div class="pon-holder">
-				<h2>pon</h2>
-				<p>
-					Распределительная сеть доступа PON основана на древовидной волоконно-кабельной архитектуре с
-					пассивными оптическими разветвителями на узлах, представляет экономичный способ обеспечить
-					широкополосную передачу информации....
-				</p>
-				<a href="pon.html" class="more">подробнее</a>
-			</div>
+<!-- Web network end -->
+<!-- Video section start -->
+<section class="container-fluid video" id="video">
+    <div class="container description-holder clearfix">
+        <div class="row">
+            <img src="<?php echo get_field("second_image");?>" class="video-img" alt="<?php echo get_field("alt_text_2");?>">
+            <h2><?php echo get_field("second_title");?></h2>
+            <div class="text-button-block pull-right">
+                <p><?php echo get_field("second_description");?></p>
+                <a href="<?php echo get_field("button_link_2");?>" class="more"><?php echo get_field("button_text_2");?></a>
+            </div>
+            <div class="cam-holder list-inline">
+                <a href="<?php echo get_field("small_img_1_link");?>"> <?php echo get_field("small_title1");?>
+                    <img src="<?php echo get_field("small_img_1");?>" alt="<?php echo get_field("small_img_1_alt");?>">
+                </a>
+                <a href="<?php echo get_field("small_img_2_link");?>"> <?php echo get_field("small_title2");?>
+                    <img src="<?php echo get_field("small_img_2");?>" alt="<?php echo get_field("small_img_2_alt");?>">
+                </a>
+            </div>
 
-		</div>
-	</div>
+        </div>
+    </div>
 </section>
+<!-- Video section end -->
+<!-- SCUD section start -->
+<secstion class="container-fluid skud" id="skud">
+    <div class="container description-holder">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2><?php echo get_field("third_title");?></h2>
+                <p><?php echo get_field("third_description");?></p>
+                <a href="<?php echo get_field("button_link_3");?>" class="more"><?php echo get_field("button_text3");?></a>
+            </div>
+            <img src="<?php echo get_field("third_image");?>" alt="<?php echo get_field("alt_text_3");?>">
+        </div>
+    </div>
+</secstion>
+<!-- SCUD section end -->
+<!-- PON section start -->
+<section class="container-fluid pon" id="pon">
+    <div class="container description-holder">
+        <div class="row">
+            <img src="<?php echo get_field("fourth_image");?>" alt="<?php echo get_field("alt_text_4");?>">
+            <div class="pon-holder">
+                <h2><?php echo get_field("fourth_title");?></h2>
+                <p><?php echo get_field("fourth_description");?></p>
+                <a href="<?php echo get_field("button_link4");?>" class="more"><?php echo get_field("button_text4");?></a>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- PON section end -->
+    <!--End main-->
 <?php get_footer(); ?>
 

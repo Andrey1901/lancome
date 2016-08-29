@@ -1,3 +1,4 @@
+<!--Start footer-->
 <section class="container-fluid footer" id="footer">
 	<div class="container">
 		<div class="row">
